@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #main {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button {
+        height: 100px;
+        width: 100px;
+        border: 2px Solid black;
+        cursor: pointer;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    #grey {
+        background-color:grey;
+    }
+
+    #yellow {
+        background-color: yellow;
+    }
+
+    #green {
+        background-color: green;
+    }
+
+    #purple {
+        background-color: purple;
+    }
+
+    #red {
+        background-color: red;
+    }
+
+    #blue {
+        background-color: blue;
+    }
+</style>
+
+<body>
+    <h2> Color Schema Switcher </h2>
+
+    <div id="main">
+        <span class="button" id="grey"></span>
+        <span class="button" id="yellow"></span>
+        <span class="button" id="green"></span>
+        <span class="button" id="purple"></span>
+        <span class="button" id="red"></span>
+        <span class="button" id="blue"></span>
+    </div>
+
+    <h2>
+        Try Clicking on one of the colors above
+        <span> To change the Background Color Of this Page!</span>
+    </h2>
+
+
+    <script src="color.js"></script>
+</body>
+
+</html>
